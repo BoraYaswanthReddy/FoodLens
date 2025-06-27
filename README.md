@@ -29,7 +29,10 @@ A smart food tracker that identifies food from images, provides nutritional info
     ```
 4.  Create a `.env` file in the root of the project and add the following environment variables:
     ```
-    GOOGLE_API_KEY=your_google_api_key
+    GOOGLE_AI_API_KEY=your_google_api_key
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
     ```
 5.  Start the server:
     ```bash
@@ -79,6 +82,7 @@ npm run cli
 ├── src/
 │   ├── aiProvider.ts       # Manages the AI provider
 │   ├── foodIdentifier.ts   # Identifies food from images
+│   ├── imageUploader.ts    # Handles image uploads to Cloudinary
 │   ├── index.ts            # CLI entry point
 │   ├── logManager.ts       # Manages the food log
 │   ├── nutritionAnalyzer.ts# Analyzes nutritional information

@@ -16,6 +16,7 @@
     "@google/genai": "^1.7.0",
     "@juspay/neurolink": "^1.11.3",
     "@types/inquirer": "^9.0.8",
+    "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
