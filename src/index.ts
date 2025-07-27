@@ -54,6 +54,11 @@ async function addFoodEntry() {
     },
   ]);
 
+  if (!imagePath) {
+    console.log("Image path cannot be empty.");
+    return;
+  }
+
   try {
     console.log('Identifying food...');
     

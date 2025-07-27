@@ -14,7 +14,7 @@
   "description": "",
   "dependencies": {
     "@google/genai": "^1.7.0",
-    "@juspay/neurolink": "^1.11.3",
+    "@juspay/neurolink": "^5.2.0",
     "@types/inquirer": "^9.0.8",
     "cloudinary": "^2.7.0",
     "cors": "^2.8.5",

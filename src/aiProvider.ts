@@ -1,7 +1,3 @@
-import { createBestAIProvider } from "@juspay/neurolink";
+import { NeuroLink } from "@juspay/neurolink";
 
-export const aiProvider = createBestAIProvider();
-
-if (aiProvider) {
-  (aiProvider as any).logLevel = "error";
-}
+export const neurolink = new NeuroLink();
